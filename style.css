@@ -6,9 +6,9 @@ body {
 }
 
 .img_robo {
-    width: 400px;
-    height: 400px;
-    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    justify-content: flex-start;
     align-items: initial;
 }
 
@@ -30,6 +30,15 @@ body {
     justify-content: center;
     background-color: #d6e8ff;
     border-radius: 20px;
+    display: flex;
+}
+
+.botao1{
+    
+    align-items: center;
+    margin-top: 20px;
+    color: #000080;
+    display: flex;
 }
 
 #botao {
@@ -38,6 +47,7 @@ body {
     align-items: center;
     margin-top: 20px;
     color: #000080;
+    display: flex;
 }
 
 .nav-titulo {
@@ -60,10 +70,12 @@ body {
     margin-top: 20px;
 }
 #id_h1 {
+    display: center;
     color: #0000cd;
     margin: 0;
 
 }
+
 
 
 
@@ -137,7 +149,7 @@ body {
 #menu_principal_juana{
     display: flex;
     gap: 6px;
-    padding:0:
+    padding:0;
 }
 
 .juana-botao {

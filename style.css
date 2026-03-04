@@ -53,41 +53,6 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #nav2 {
     display: flex;
     justify-content: center;
@@ -99,3 +64,97 @@ body {
     margin: 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#juana-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+#juana-header{
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 10px;
+}
+
+#juana-title{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+#menu_principal_juana{
+    display: flex;
+    gap: 6px;
+    padding:0:
+}
+
+.juana-botao {
+    background-color: #f5f5f5;
+    border: 1px solid #bfbfbf;
+    padding: 4px 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.juana-botao:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+
+

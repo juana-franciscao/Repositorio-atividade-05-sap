@@ -35,6 +35,12 @@ header{
     border-radius: 20px;
 }
 
+.botao {
+   
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
 
 
 
@@ -75,11 +81,13 @@ header{
 
 
 
-nav {
+
+#nav2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    color: #;
 }
 
 #id_h1 {

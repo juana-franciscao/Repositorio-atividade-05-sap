@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, Times, 'Times New Roman', serif;
     margin: 10px;
-    
+
     background-color: #ffffff;
 }
 
@@ -17,8 +17,8 @@ body {
     justify-content: space-around;
     align-items: initial;
     margin-top: 20px;
-    
-    
+
+
 }
 
 
@@ -33,7 +33,7 @@ body {
 }
 
 #botao {
-   
+
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
@@ -59,6 +59,7 @@ body {
     align-items: center;
     margin-top: 20px;
 }
+
 #id_h1 {
     color: #0000cd;
     margin: 0;
@@ -117,27 +118,29 @@ body {
 
 
 
-#juana-body{
+
+
+#juana-body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
     margin: 0px;
 }
 
-#juana-header{
+#juana-header {
     background-color: #e6e6e6;
     border-bottom: 1px solid #bdbdbd;
     padding: 10px;
 }
 
-#juana-title{
+#juana-title {
     font-size: 18px;
     margin-bottom: 8px;
 }
 
-#menu_principal_juana{
+#menu_principal_juana {
     display: flex;
     gap: 6px;
-    padding:0:
+    padding: 0:
 }
 
 .juana-botao {
@@ -152,9 +155,38 @@ body {
     background-color: #e0e0e0;
 }
 
+#Notification {
+    width: 25%;
+    float: left;
+    background: white;
+    border-right: 1px solid #cfcfcf;
+    padding: 10px;
+    height: 600px;
+}
 
+#Overview {
+    width: 70%;
+    float: right;
+    padding: 10px;
+}
 
+#juana_tabela_overview, 
+#juana_tabela_notification {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 13px;
+}
 
+#juana_tabela_overview th, #juana_tabela_overview td, 
+#juana_tabela_notification th, 
+#juana_tabela_notification td {
+    border: 1px solid #cfcfcf;
+    padding: 6px;
+    font-size: 14px;
+}
 
-
-
+#juana_tabela_notification th,
+#juana_tabela_overview th {
+    background-color: #e6e6e6;
+   text-align: left;
+}

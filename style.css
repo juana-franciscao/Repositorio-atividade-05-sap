@@ -23,6 +23,7 @@ body {
 
 header{
 
+
 }
 
 header.header2 {
@@ -82,7 +83,7 @@ nav {
     margin-top: 20px;
 }
 
-h1 {
+.img_robo h1 {
     color: #0000cd;
     margin: 0;
 

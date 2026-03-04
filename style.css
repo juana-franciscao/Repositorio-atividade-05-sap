@@ -33,12 +33,14 @@ body {
 }
 
 .menu.botoes{
-   position: absolute;
+   
     right: 40px;
     top: 40px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    background-color: darkblue;
+    color: snow;
 }
 
 
@@ -101,5 +103,6 @@ body {
 #id_h1 {
     color: #0000cd;
     margin: 0;
+   display: flex;
 
 }

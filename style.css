@@ -32,31 +32,26 @@ body {
     border-radius: 20px;
 }
 
-.menu.botoes{
+#botao {
    
-    right: 40px;
-    top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color: darkblue;
-    color: snow;
-}
-
-
-
-.botao1{
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    background-color: #d6e8ff;
+    color: #000080;
 }
 
+.nav-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.menu_principal {
+    display: flex;
+    justify-content: space-around;
 
-
-
+}
 
 
 
@@ -98,11 +93,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    
 }
 #id_h1 {
     color: #0000cd;
     margin: 0;
-   display: flex;
 
 }

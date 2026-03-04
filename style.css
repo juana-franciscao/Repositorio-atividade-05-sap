@@ -35,11 +35,12 @@ header{
     border-radius: 20px;
 }
 
-.botao {
+#botao {
    
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    color: #000080;
 }
 
 
@@ -89,7 +90,6 @@ header{
     margin-top: 20px;
     color: #;
 }
-
 #id_h1 {
     color: #0000cd;
     margin: 0;

@@ -8,35 +8,36 @@
 
 </head>
 
-<body id="juana-body" >
+<body id="juana-body">
 
     <header id="juana-header">
         <nav id="juana-nav">
-            <h1 id="juana-title">Component Customizing/SCMTMS/WDCC_FWD_ORDER,Main Page "$0TR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
+            <h1 id="juana-title">Component Customizing/SCMTMS/WDCC_FWD_ORDER,Main Page
+                "$0TR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
             <img id="linha" src="assets/linha.png" alt="linha tracejada">
             <div class="menu_nav">
                 <ul id="menu_principal_juana">
-                    <ul><button class="juana-botao">Save</button><ul>
-                    <ul><button class="juana-botao">Cancel</button></ul>
-                    <ul><button class="juana-botao">Edit</button></ul>
-                    <ul><button class="juana-botao">Save Draft</button></ul>
-                    <ul><button class="juana-botao">Load Draft</button></ul>
-                    <ul><button class="juana-botao">Refresh</button></ul>
-                    <ul><button class="juana-botao">Undo</button></ul>
-                    <ul><button class="juana-botao">Redo</button></ul>
-                    <ul><button class="juana-botao">Check</button></ul>
-                    <ul><button class="juana-botao"><img src="" alt=""></button></ul>
-                    <ul><button class="juana-botao"><img src="" alt=""></button></ul>
-                    <ul><button class="juana-botao"><img src="" alt=""></button></ul>
-                    <ul><button class="juana-botao">Additional Functions</button></ul>
-                </ul>
+                    <ul><button class="juana-botao">Save</button>
+                        <ul>
+                            <ul><button class="juana-botao">Cancel</button></ul>
+                            <ul><button class="juana-botao">Edit</button></ul>
+                            <ul><button class="juana-botao">Save Draft</button></ul>
+                            <ul><button class="juana-botao">Load Draft</button></ul>
+                            <ul><button class="juana-botao">Refresh</button></ul>
+                            <ul><button class="juana-botao">Undo</button></ul>
+                            <ul><button class="juana-botao">Redo</button></ul>
+                            <ul><button class="juana-botao">Check</button></ul>
+                            <ul><button class="juana-botao"><img src="" alt=""></button></ul>
+                            <ul><button class="juana-botao"><img src="" alt=""></button></ul>
+                            <ul><button class="juana-botao"><img src="" alt=""></button></ul>
+                            <ul><button class="juana-botao">Additional Functions</button></ul>
+                        </ul>
             </div>
         </nav>
 
     </header>
 
     <body>
-        
 
         <section id="Notifications">
             <h2>Notifications</h2>
@@ -52,14 +53,12 @@
             </div>
 
             <div>
-                <table>
-                    <div>
-                        <tr>
-                            <th>Page Type</th>
-                            <th>Page ID</th>
-                            <th>Title</th>
-                        </tr>
-                    </div>
+                <table id="juana_tabela_notificacao">
+                    <tr>
+                        <th>Page Type</th>
+                        <th>Page ID</th>
+                        <th>Title</th>
+                    </tr>
                     <tr>
                         <td>Initial page</td>
                         <td>INIT</td>
@@ -132,12 +131,59 @@
 
         <section id="Overview">
             <h2>Overview Page Schema</h2>
+
             <p>Toolbar Schema</p>
             <p>Wire Schema</p>
 
+            <table id="juana_tabela_overview">
+                <tr>
+                    <th> Element</th>
+                    <th>Component</th>
+                    <th>config ID</th>
+                    <th>Window Name</th>
+                </tr>
 
+                <tr>
+                    <th>Element</th>
+                    <th>Component</th>
+                    <th>Config ID</th>
+                    <th>Window Name</th>
+                </tr>
 
+                <tr>
+                    <td>Section: SECTION_1</td>
+                    <td>FPM_FORM_UIBB</td>
+                    <td>/SCMTMS/WDCC_FWO_GEN</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB</td>
+                    <td>FPM_FORM_UIBB</td>
+                    <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                    <td>FORM_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB</td>
+                    <td>FPM_TABBED_UIBB</td>
+                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                    <td>TABBED_WINDOW</td>
+                </tr>
+
+                <tr>
+                    <td>UIBB</td>
+                    <td>FPM_TREE_UIBB</td>
+                    <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                    <td>TREE_WINDOW</td>
+                </tr>
+            </table>
         </section>
+
+        <section>
+            
+        </section>
+
     </body>
 
 

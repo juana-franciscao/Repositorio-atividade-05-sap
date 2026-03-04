@@ -21,10 +21,7 @@ body {
     
 }
 
-header{
 
-
-}
 
 .header_header2 {
 
@@ -35,12 +32,23 @@ header{
     border-radius: 20px;
 }
 
-#botao {
-   
-    justify-content: space-around;
+.menu.botoes{
+   position: absolute;
+    right: 40px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.botao1{
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
-    color: #000080;
+    background-color: #d6e8ff;
 }
 
 
@@ -88,7 +96,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    color: #;
+    
 }
 #id_h1 {
     color: #0000cd;

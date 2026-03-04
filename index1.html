@@ -19,6 +19,7 @@
                 <ul id="menu_principal_juana">
                     <ul><button class="juana-botao">Save</button>
                         <ul>
+                            <ul><button class="juana-botao">Save</button></ul>
                             <ul><button class="juana-botao">Cancel</button></ul>
                             <ul><button class="juana-botao">Edit</button></ul>
                             <ul><button class="juana-botao">Save Draft</button></ul>
@@ -44,12 +45,13 @@
             <h3>Repositories</h3>
             <div class="notification_menu">
                 <ul>
-                    <li><button>new</button></li>
-                    <li><button><img src="" alt=""></button></li>
-                    <li><button>up</button></li>
-                    <li><button>down</button></li>
-                    <li><button><img src="" alt=""></button></li>
-                </ul>
+                    <ul><button>new</button></li>
+                        <ul><button><img src="" alt="lixeira"></button></li>
+                            <ul><button><img src="" alt="copiar"></button></li>
+                                <ul><button>up</button></li>
+                                    <ul><button>down</button></li>
+                                        <ul><button><img src="" alt="configurações"></button></li>
+                                        </ul>
             </div>
 
             <div>
@@ -135,18 +137,21 @@
             <p>Toolbar Schema</p>
             <p>Wire Schema</p>
 
+            <ul><button class="juana-botao"><img src="" alt="Pagina com mais"> Page Master Area</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="copiar"> Section</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="up"> UIBB</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="down"> lixeira</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="configurações"> Up</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="lixeira"> Down</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="editar"> Configure UIBB</button></ul>
+            <ul><button class="juana-botao"><img src="" alt="configurações"></button></ul>
+
+
             <table id="juana_tabela_overview">
                 <tr>
                     <th> Element</th>
                     <th>Component</th>
                     <th>config ID</th>
-                    <th>Window Name</th>
-                </tr>
-
-                <tr>
-                    <th>Element</th>
-                    <th>Component</th>
-                    <th>Config ID</th>
                     <th>Window Name</th>
                 </tr>
 
@@ -180,8 +185,53 @@
             </table>
         </section>
 
-        <section>
-            
+        <section id="juana_attributes">
+            <h2>Attributes of UIBB</h2>
+
+            <div id="juana-form">
+
+                <label>Window Name</label>
+                <input type="text" value="FORM_WINDOW">
+
+                <label>Config ID</label>
+                <input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
+
+                <label>Column</label>
+                <input type="text" value="1">
+
+                <label>Row Number</label>
+                <input type="text">
+
+                <label>Hidden Element</label>
+
+                <select>
+                    <option>Visible</option>
+                    <option>Hidden</option>
+                </select>
+
+                <label> Title: </label>
+                <input type="text" value="$OTR:SCMTMSUI_CMNADM_INFO">
+
+                <label>Imagem:</label>
+                <input type="text">
+
+                <label>Padding:</label>
+                <input type="text" value="Automatic(Default)">
+
+                <label>Explanation text:</label>
+                <input type="text">
+
+                <label>Explanation Document:</label>
+                <input type="text">
+
+                <label> Defalt Edit Page: </label>
+                <input type="text">
+
+                <label>Default Details Page:</label>
+                <input type="text">
+
+
+            </div>
         </section>
 
     </body>

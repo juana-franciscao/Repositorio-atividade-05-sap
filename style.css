@@ -6,9 +6,9 @@ body {
 }
 
 .img_robo {
-    width: 400px;
-    height: 400px;
-    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    justify-content: flex-start;
     align-items: initial;
 }
 
@@ -30,6 +30,15 @@ body {
     justify-content: center;
     background-color: #d6e8ff;
     border-radius: 20px;
+    display: flex;
+}
+
+.botao1{
+    
+    align-items: center;
+    margin-top: 20px;
+    color: #000080;
+    display: flex;
 }
 
 #botao {
@@ -38,6 +47,7 @@ body {
     align-items: center;
     margin-top: 20px;
     color: #000080;
+    display: flex;
 }
 
 .nav-titulo {
@@ -61,6 +71,7 @@ body {
 }
 
 #id_h1 {
+    display: center;
     color: #0000cd;
     margin: 0;
 
@@ -119,11 +130,18 @@ body {
 
 
 
+<<<<<<< HEAD
 
 
 #juana-body {
     background-color: #f5f6f7;
     padding: 20px;
+=======
+#juana-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0px;
+>>>>>>> b01b75dfb68f830ab12ffb72319189e18cf77372
 }
 
 #juana-header {
@@ -144,10 +162,15 @@ body {
 
 #menu_principal_juana {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     gap: 5px;
     list-style: none;
     padding: 0;
+=======
+    gap: 6px;
+    padding:0;
+>>>>>>> b01b75dfb68f830ab12ffb72319189e18cf77372
 }
 
 #menu_principal_juana ul {

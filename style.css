@@ -130,18 +130,11 @@ body {
 
 
 
-<<<<<<< HEAD
-
-
-#juana-body {
-    background-color: #f5f6f7;
-    padding: 20px;
-=======
-#juana-body{
+<#juana-body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f5f6f7;
     margin: 0px;
->>>>>>> b01b75dfb68f830ab12ffb72319189e18cf77372
+    padding: 20px;
 }
 
 #juana-header {
@@ -162,38 +155,33 @@ body {
 
 #menu_principal_juana {
     display: flex;
-<<<<<<< HEAD
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 6px;
     list-style: none;
     padding: 0;
-=======
-    gap: 6px;
-    padding:0;
->>>>>>> b01b75dfb68f830ab12ffb72319189e18cf77372
 }
 
 #menu_principal_juana ul {
     display: inline;
 }
 
-.juana-botao{
-    background:#e6e6e6;
-    border:1px solid #bfbfbf;
-    padding:4px 8px;
-    font-size:13px;
-    cursor:pointer;
+.juana-botao {
+    background: #e6e6e6;
+    border: 1px solid #bfbfbf;
+    padding: 4px 8px;
+    font-size: 13px;
+    cursor: pointer;
 }
 
-.juana-botao:hover{
-    background:#dcdcdc;
+.juana-botao:hover {
+    background: #dcdcdc;
 }
 
 .juana-botao img {
-    width:16px;
-    height:16px;
-    vertical-align:middle;
-    margin-right:4px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 4px;
 }
 
 section {
@@ -203,34 +191,32 @@ section {
     padding: 15px;
 }
 
-
 #Notifications h2,
-#Notifications h3{
-    display:inline-block;
-    margin-right:20px;
+#Notifications h3 {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-#Notifications{
-    border-bottom:2px solid #cfcfcf;
-    padding-bottom:10px;
-    margin-bottom:15px;
-    width:30%;
-    border:1px solid #cfcfcf;
-    padding:10px;
-    margin-right:10px;
+#Notifications {
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 30%;
+    margin-right: 10px;
+    float: left; /* Adicionado para manter a barra lateral */
 }
 
-.notification_menu button{
-    padding:8px 12px;
-    border:1px solid #bdbdbd;
-    background:#efefef;
-    cursor:pointer;
+.notification_menu button {
+    padding: 8px 12px;
+    border: 1px solid #bdbdbd;
+    background: #efefef;
+    cursor: pointer;
 }
 
-.notification_menu img{
-    width:18px;
-    height:18px;
-    margin-right:5px;
+.notification_menu img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
 }
 
 .notification_menu ul {
@@ -256,7 +242,6 @@ section {
     font-size: 13px;
 }
 
-
 #juana_tabela_notificacao td,
 #juana_tabela_overview td {
     border: 1px solid #cfcfcf;
@@ -264,37 +249,37 @@ section {
     font-size: 13px;
 }
 
-
 #juana_tabela_notificacao tr:hover,
 #juana_tabela_overview tr:hover {
     background-color: #f3f6f9;
 }
 
-#Overview, h2, {
-     width:65%;
-    border:1px solid #cfcfcf;
-    padding:10px;
-     margin-bottom:5px;
-     display: inline-block;
-     margin-right: 20px;
+#overview {
+    width: 65%;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background: white;
 }
 
-.overview-titulos{
-    display:flex;
-    gap:30px;
-    margin-bottom:10px;
+.overview-titulos {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
 }
 
-.overview-titulos p{
-    margin:0;
+.overview-titulos p {
+    margin: 0;
 }
 
-#Overview ul{
-    display:inline-block;
-    margin-right:6px;
-    margin-top:6px;
+#overview ul {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 6px;
+    list-style: none;
+    padding: 0;
 }
-
 
 #juana-form {
     display: grid;
@@ -303,14 +288,12 @@ section {
     margin-top: 10px;
 }
 
-
 #juana-form input,
 #juana-form select {
     padding: 5px;
     border: 1px solid #bdbdbd;
     font-size: 13px;
 }
-
 
 #juana-form label {
     font-size: 13px;

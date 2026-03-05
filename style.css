@@ -32,22 +32,105 @@ body {
     border-radius: 20px;
     display: flex;
 }
+.botao{
+
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    height: 30PX;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+
 
 .botao1{
     
+     display: flex;
+   flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    color: #000080;
-    display: flex;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    align-content: space-around;
+   width: 300px;
+   height: 30px;
+   margin-top: 10px;
+   
 }
 
-#botao {
-   
+.botao2{
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    align-content: space-around;
+    width: 300px;
+   margin-top: 10px;
+    height: 30px;
+}
+
+.botao3{
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    align-content: space-around;
+    width: 300px;
+   margin-top: 10px;
+    height: 30px;
+}
+
+.botao4{
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    align-content: space-around;
+    width: 300px;
+   margin-top: 10px;
+    height: 30px;
+}
+
+.botao5{
+     display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000080;
+    color: #ffffff;
+    border-radius: 20px;
+    align-content: space-around;
+    width: 300px;
+   margin-top: 10px;
+    height: 30px;
+}
+
+.menu.botoes {
+   align-items: flex-start;
+    
+    background-color: #000080;
+    border-radius: 20px;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    color: #000080;
-    display: flex;
+    color: #ffffff;
+   
 }
 
 .nav-titulo {
@@ -76,6 +159,37 @@ body {
 
 }
 
+#Frase1{
+    display: flex;
+
+color: #000080;
+
+}
+
+
+#Frase2{
+display: inline-block;
+justify-content: end;
+width: 30%;
+color: #000080;
+
+}
+
+#header.nicole{
+     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #d6e8ff;
+    border-radius: 20px;
+   
+}
+
+.img_coisas{
+   
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
 
 
 

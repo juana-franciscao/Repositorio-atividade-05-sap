@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Component Configurador</title>
+
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -17,224 +19,224 @@
             <img id="linha" src="assets/linha.png" alt="linha tracejada">
             <div class="menu_nav">
                 <ul id="menu_principal_juana">
-                    <ul><button class="juana-botao">Save</button>
-                        <ul>
-                            <ul><button class="juana-botao"><img src="assets/impressora.png" alt="impressora">Save</button></ul>
-                            <ul><button class="juana-botao"><img src="assets/X.png" alt="X">Cancel</button></ul>
-                            <ul><button class="juana-botao">Edit</button></ul>
-                            <ul><button class="juana-botao">Save Draft</button></ul>
-                            <ul><button class="juana-botao">Load Draft</button></ul>
-                            <ul><button class="juana-botao">Refresh</button></ul>
-                            <ul><button class="juana-botao">Undo</button></ul>
-                            <ul><button class="juana-botao">Redo</button></ul>
-                            <ul><button class="juana-botao">Check</button></ul>
-                            <ul><button class="juana-botao"><img src="assets/quadrado1.png" alt="quadrado1"></button></ul>
-                            <ul><button class="juana-botao"><img src="assets/quadrado2.png" alt="quadrado2"></button></ul>
-                            <ul><button class="juana-botao"><img src="assets/quadrado3.png" alt="quadrado3"></button></ul>
-                            <ul><button class="juana-botao">Additional Functions</button></ul>
-                        </ul>
+                    <li><button class="juana-botao"><img src="assets/impressora.png" alt="impressora">Save</button></li>
+                    <li><button class="juana-botao"><img src="assets/X.png" alt="X">Cancel</button></li>
+                    <li><button class="juana-botao">Edit</button></li>
+                    <li><button class="juana-botao">Save Draft</button></li>
+                    <li><button class="juana-botao">Load Draft</button></li>
+                    <li><button class="juana-botao">Refresh</button></li>
+                    <li><button class="juana-botao">Undo</button></li>
+                    <li><button class="juana-botao">Redo</button></li>
+                    <li><button class="juana-botao">Check</button></li>
+                    <li><button class="juana-botao"><img src="assets/quadrado1.png" alt="quadrado1"></button></li>
+                    <li><button class="juana-botao"><img src="assets/quadrado2.png" alt="quadrado2"></button></li>
+                    <li><button class="juana-botao"><img src="assets/quadrado3.png" alt="quadrado3"></button></li>
+                    <li><button class="juana-botao">Additional Functions</button></li>
+                </ul>
             </div>
         </nav>
 
     </header>
 
-    <body>
-
-        <section id="Notifications">
-            <h2>Notifications</h2>
-            <h3>Repositories</h3>
-            <div class="notification_menu">
-                <ul>
-                    <ul><button class="juana-botao"><img src="assets/new.png" alt="new">new</button></li>
+    <section id="Notifications">
+        <h2>Notifications</h2>
+        <h3>Repositories</h3>
+        <div class="notification_menu">
+            <ul>
+                <ul><button class="juana-botao"><img src="assets/new.png" alt="new">new</button></li>
                     <ul><button class="juana-botao"><img src="assets/lixeira.png" alt="lixeira"></button></li>
-                    <ul><button class="juana-botao"><img src="assets/dublicarpagina.png" alt="copiar"></button></li>
-                    <ul><button class="juana-botao">up</button></li>
-                    <ul><button class="juana-botao">down</button></li>
-                    <ul><button class="juana-botao"><img src="assets/configuraçoes.png" alt="configurações"></button></li>
-                </ul>
-            </div>
+                        <ul><button class="juana-botao"><img src="assets/dublicarpagina.png" alt="copiar"></button></li>
+                            <ul><button class="juana-botao">up</button></li>
+                                <ul><button class="juana-botao">down</button></li>
+                                    <ul><button class="juana-botao"><img src="assets/configuraçoes.png"
+                                                alt="configurações"></button></li>
+                                    </ul>
+        </div>
 
-            <div>
-                <table id="juana_tabela_notificacao">
-                    <tr>
-                        <th>Page Type</th>
-                        <th>Page ID</th>
-                        <th>Title</th>
-                    </tr>
-                    <tr>
-                        <td>Initial page</td>
-                        <td>INIT</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                    <tr>
-                        <td>Main page</td>
-                        <td>MAIN</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-
-                    </tr>
-                    <tr>
-                        <td>Main page</td>
-                        <td>MAIN_FAST_EL</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-
-                    <tr>
-                        <td>Main page</td>
-                        <td>MAIN_FAST_EL</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-
-                    <tr>
-                        <td>Dialog page </td>
-                        <td>ADDRESS_DET</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>ADDRESS_DET</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>ACT_LIST</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>NOTE_HLP</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>SEC_FLING_R</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>SEC_FLING_R</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>REPACT_NOTE</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                    <tr>
-                        <td>Dialog page</td>
-                        <td>REPACT_ATF</td>
-                        <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <section id="Overview">
-            <h2>Overview Page Schema</h2>
-
-            <p>Toolbar Schema</p>
-            <p>Wire Schema</p>
-
-            <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="Pagina com mais"> Page Master Area</button></ul>
-            <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="copiar"> Section</button></ul>
-            <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="UIBB"> UIBB</button></ul>
-            <ul><button class="juana-botao"><img src="assets/lixeira.png" alt="lixeira"> lixeira</button></ul>
-            <ul><button class="juana-botao"> Up</button></ul>
-            <ul><button class="juana-botao">Down</button></ul>
-            <ul><button class="juana-botao">Configure UIBB</button></ul>
-            <ul><button class="juana-botao"><img src="assets/configuraçoes.png" alt="configurações"></button></ul>
-
-
-            <table id="juana_tabela_overview">
+        <div>
+            <table id="juana_tabela_notificacao">
                 <tr>
-                    <th> Element</th>
-                    <th>Component</th>
-                    <th>config ID</th>
-                    <th>Window Name</th>
+                    <th>Page Type</th>
+                    <th>Page ID</th>
+                    <th>Title</th>
+                </tr>
+                <tr>
+                    <td>Initial page</td>
+                    <td>INIT</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+                <tr>
+                    <td>Main page</td>
+                    <td>MAIN</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+
+                </tr>
+                <tr>
+                    <td>Main page</td>
+                    <td>MAIN_FAST_EL</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
                 </tr>
 
                 <tr>
-                    <td>Section: SECTION_1</td>
-                    <td>FPM_FORM_UIBB</td>
-                    <td>/SCMTMS/WDCC_FWO_GEN</td>
-                    <td>FORM_WINDOW</td>
+                    <td>Main page</td>
+                    <td>MAIN_FAST_EL</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
                 </tr>
 
                 <tr>
-                    <td>UIBB</td>
-                    <td>FPM_FORM_UIBB</td>
-                    <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
-                    <td>FORM_WINDOW</td>
+                    <td>Dialog page </td>
+                    <td>ADDRESS_DET</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
                 </tr>
 
                 <tr>
-                    <td>UIBB</td>
-                    <td>FPM_TABBED_UIBB</td>
-                    <td>/SCMTMS/WDCC_TRQ_BUPA</td>
-                    <td>TABBED_WINDOW</td>
+                    <td>Dialog page</td>
+                    <td>ADDRESS_DET</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
                 </tr>
 
                 <tr>
-                    <td>UIBB</td>
-                    <td>FPM_TREE_UIBB</td>
-                    <td>/SCMTMS/WDCC_DOC_FLOW</td>
-                    <td>TREE_WINDOW</td>
+                    <td>Dialog page</td>
+                    <td>ACT_LIST</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+
+                <tr>
+                    <td>Dialog page</td>
+                    <td>NOTE_HLP</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+                <tr>
+                    <td>Dialog page</td>
+                    <td>SEC_FLING_R</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+                <tr>
+                    <td>Dialog page</td>
+                    <td>SEC_FLING_R</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+                <tr>
+                    <td>Dialog page</td>
+                    <td>REPACT_NOTE</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
+                </tr>
+                <tr>
+                    <td>Dialog page</td>
+                    <td>REPACT_ATF</td>
+                    <td>$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER</td>
                 </tr>
             </table>
-        </section>
+        </div>
+    </section>
 
-        <section id="juana_attributes">
-            <h2>Attributes of UIBB</h2>
+    <section id="overview">
+        <h2>Overview Page Schema</h2>
 
-            <div id="juana-form">
+        <div class="overview-titulos">
+        <p>Toolbar Schema</p>
+        <p>Wire Schema</p>
+        </div>
 
-                <label>Window Name</label>
-                <input type="text" value="FORM_WINDOW">
-
-                <label>Config ID</label>
-                <input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
-
-                <label>Column</label>
-                <input type="text" value="1">
-
-                <label>Row Number</label>
-                <input type="text">
-
-                <label>Hidden Element</label>
-
-                <select>
-                    <option>Visible</option>
-                    <option>Hidden</option>
-                </select>
-
-                <label> Title: </label>
-                <input type="text" value="$OTR:SCMTMSUI_CMNADM_INFO">
-
-                <label>Imagem:</label>
-                <input type="text">
-
-                <label>Padding:</label>
-                <input type="text" value="Automatic(Default)">
-
-                <label>Explanation text:</label>
-                <input type="text">
-
-                <label>Explanation Document:</label>
-                <input type="text">
-
-                <label> Defalt Edit Page: </label>
-                <input type="text">
-
-                <label>Default Details Page:</label>
-                <input type="text">
+        <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="Pagina com mais"> Page Master Area</button>
+        </ul>
+        <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="copiar"> Section</button></ul>
+        <ul><button class="juana-botao"><img src="assets/Pag mais.png" alt="UIBB"> UIBB</button></ul>
+        <ul><button class="juana-botao"><img src="assets/lixeira.png" alt="lixeira"> lixeira</button></ul>
+        <ul><button class="juana-botao"> Up</button></ul>
+        <ul><button class="juana-botao">Down</button></ul>
+        <ul><button class="juana-botao">Configure UIBB</button></ul>
+        <ul><button class="juana-botao"><img src="assets/configuraçoes.png" alt="configurações"></button></ul>
 
 
-            </div>
-        </section>
+        <table id="juana_tabela_overview">
+            <tr>
+                <th> Element</th>
+                <th>Component</th>
+                <th>config ID</th>
+                <th>Window Name</th>
+            </tr>
 
-    </body>
+            <tr>
+                <td>Section: SECTION_1</td>
+                <td>FPM_FORM_UIBB</td>
+                <td>/SCMTMS/WDCC_FWO_GEN</td>
+                <td>FORM_WINDOW</td>
+            </tr>
+
+            <tr>
+                <td>UIBB</td>
+                <td>FPM_FORM_UIBB</td>
+                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                <td>FORM_WINDOW</td>
+            </tr>
+
+            <tr>
+                <td>UIBB</td>
+                <td>FPM_TABBED_UIBB</td>
+                <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                <td>TABBED_WINDOW</td>
+            </tr>
+
+            <tr>
+                <td>UIBB</td>
+                <td>FPM_TREE_UIBB</td>
+                <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                <td>TREE_WINDOW</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="juana_attributes">
+        <h2>Attributes of UIBB</h2>
+
+        <div id="juana-form">
+
+            <label>Window Name</label>
+            <input type="text" value="FORM_WINDOW">
+
+            <label>Config ID</label>
+            <input type="text" value="/SCMTMS/WDCC_CMN_ADMINDATA">
+
+            <label>Column</label>
+            <input type="text" value="1">
+
+            <label>Row Number</label>
+            <input type="text">
+
+            <label>Hidden Element</label>
+
+            <select>
+                <option>Visible</option>
+                <option>Hidden</option>
+            </select>
+
+            <label> Title: </label>
+            <input type="text" value="$OTR:SCMTMSUI_CMNADM_INFO">
+
+            <label>Imagem:</label>
+            <input type="text">
+
+            <label>Padding:</label>
+            <input type="text" value="Automatic(Default)">
+
+            <label>Explanation text:</label>
+            <input type="text">
+
+            <label>Explanation Document:</label>
+            <input type="text">
+
+            <label> Defalt Edit Page: </label>
+            <input type="text">
+
+            <label>Default Details Page:</label>
+            <input type="text">
+
+
+        </div>
+    </section>
+
+</body>
 
 
 </html>

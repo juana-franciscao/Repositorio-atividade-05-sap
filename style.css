@@ -120,73 +120,177 @@ body {
 
 
 
+
 #juana-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0px;
+    background-color: #f5f6f7;
+    padding: 20px;
 }
 
 #juana-header {
-    background-color: #e6e6e6;
-    border-bottom: 1px solid #bdbdbd;
+    background-color: white;
+    border: 1px solid #d0d0d0;
     padding: 10px;
 }
 
 #juana-title {
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#linha {
+    width: 100%;
+    margin: 10px 0;
 }
 
 #menu_principal_juana {
     display: flex;
-    gap: 6px;
-    padding: 0:
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
 }
 
-.juana-botao {
-    background-color: #f5f5f5;
-    border: 1px solid #bfbfbf;
-    padding: 4px 8px;
-    font-size: 13px;
-    cursor: pointer;
+#menu_principal_juana ul {
+    display: inline;
 }
 
-.juana-botao:hover {
-    background-color: #e0e0e0;
+.juana-botao{
+    background:#e6e6e6;
+    border:1px solid #bfbfbf;
+    padding:4px 8px;
+    font-size:13px;
+    cursor:pointer;
 }
 
-#Notification {
-    width: 25%;
-    float: left;
+.juana-botao:hover{
+    background:#dcdcdc;
+}
+
+.juana-botao img {
+    width:16px;
+    height:16px;
+    vertical-align:middle;
+    margin-right:4px;
+}
+
+section {
     background: white;
-    border-right: 1px solid #cfcfcf;
-    padding: 10px;
-    height: 600px;
+    border: 1px solid #d0d0d0;
+    margin-top: 20px;
+    padding: 15px;
 }
 
-#Overview {
-    width: 70%;
-    float: right;
-    padding: 10px;
+
+#Notifications h2,
+#Notifications h3{
+    display:inline-block;
+    margin-right:20px;
 }
 
-#juana_tabela_overview, 
-#juana_tabela_notification {
+#Notifications{
+    border-bottom:2px solid #cfcfcf;
+    padding-bottom:10px;
+    margin-bottom:15px;
+    width:30%;
+    border:1px solid #cfcfcf;
+    padding:10px;
+    margin-right:10px;
+}
+
+.notification_menu button{
+    padding:8px 12px;
+    border:1px solid #bdbdbd;
+    background:#efefef;
+    cursor:pointer;
+}
+
+.notification_menu img{
+    width:18px;
+    height:18px;
+    margin-right:5px;
+}
+
+.notification_menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+#juana_tabela_notificacao,
+#juana_tabela_overview {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
-#juana_tabela_overview th, #juana_tabela_overview td, 
-#juana_tabela_notification th, 
-#juana_tabela_notification td {
-    border: 1px solid #cfcfcf;
-    padding: 6px;
-    font-size: 14px;
-}
-
-#juana_tabela_notification th,
+#juana_tabela_notificacao th,
 #juana_tabela_overview th {
-    background-color: #e6e6e6;
-   text-align: left;
+    background-color: #eaeaea;
+    border: 1px solid #cfcfcf;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+#juana_tabela_notificacao td,
+#juana_tabela_overview td {
+    border: 1px solid #cfcfcf;
+    padding: 8px;
+    font-size: 13px;
+}
+
+
+#juana_tabela_notificacao tr:hover,
+#juana_tabela_overview tr:hover {
+    background-color: #f3f6f9;
+}
+
+#Overview, h2, {
+     width:65%;
+    border:1px solid #cfcfcf;
+    padding:10px;
+     margin-bottom:5px;
+     display: inline-block;
+     margin-right: 20px;
+}
+
+.overview-titulos{
+    display:flex;
+    gap:30px;
+    margin-bottom:10px;
+}
+
+.overview-titulos p{
+    margin:0;
+}
+
+#Overview ul{
+    display:inline-block;
+    margin-right:6px;
+    margin-top:6px;
+}
+
+
+#juana-form {
+    display: grid;
+    grid-template-columns: 200px 300px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+#juana-form input,
+#juana-form select {
+    padding: 5px;
+    border: 1px solid #bdbdbd;
+    font-size: 13px;
+}
+
+
+#juana-form label {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
 }
